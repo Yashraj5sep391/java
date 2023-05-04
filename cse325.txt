@@ -1,0 +1,9 @@
+In window, it is a menu-based OS. It means that for every action there is 
+an option available on screen.
+
+Windows uses backslash ('\') as the directory separator, while Linux uses forward slash ('/') as the directory separator.
+• In Linux it is a command-based OS. For preforming an action, we must
+write a command.
+• Windows provide us both facilities. Either complete a process by using 
+menu options or use the cmd.
+

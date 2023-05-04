@@ -1,0 +1,8 @@
+1.1. Purpose and Scope of Product
+
+
+The Software Requirements Specification (SRS) document's goal is to give a precise and detailed explanation of how the Weather History (WH) system operates. The development teams will use the SRS as a reference during the design, implementation, and verification phases;
+
+SRS also refers to a contract between the client and the development teams that details the functionality that will be provided in the finished product.
+
+The Earth's climate has changed dramatically in recent years. Understanding and researching these changes and their effects on humanity has become of utmost importance. Several scientists throughout the world, including those at the Systems Ecology Lab at the University of Texas at El Paso (UTEP), have worked very hard to collect and analyse meteorological data. The Circumarctic Environmental Observatories Network (CEON) web-based mapping and information system is currently used by the UTEP research team. Access to webcam photos, climatic data, and almost real-time earthquake reporting is made possible through CEON. The popularity of this effective application has sparked interest in expanding the system's capabilities and its applicability area. System of Weather History will be an addition.

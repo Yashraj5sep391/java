@@ -1,0 +1,15 @@
+interface A 
+{
+    void calculate(int x,int y); // by default public and abstract
+}
+
+public class Mar23_
+{
+	public static void main(String[] args) 
+	{
+		A add = (x,y) -> System.out.println("Sum is "+ (x+y));
+		A sub = (x,y) -> System.out.println("Sum is "+ (x-y));
+		add.calculate(12,34);
+		sub.calculate(12,34);
+	}
+}
