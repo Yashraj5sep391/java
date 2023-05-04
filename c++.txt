@@ -1,0 +1,28 @@
+#include <unistd.h>
+#include <stdio.h>
+#include <fcntl.h>
+int main() 
+{
+    char buf[50];
+    int fd=open("lab.txt",0_RDONLY|0_CREAT,0777);
+    int fd1=open("second.txt",0_WRONLY|0_CREAT,0777);
+    
+    while(read(fd,&buf,1))
+    {
+        write(fd1,&buf,1);
+    }
+    close(fd);
+    close(fd1);
+    printf("Copy Successful")
+//int fd=("demo.txt",0_WRONGLY|0_CREAT,0777 );
+//write(fd,"WRITING TO A FILE DEMONSTRATION",45);
+//printf("Successful");
+
+
+
+
+
+//char buf[50];
+//int r= read(0,&buf,30);
+//write(1,&buf,r);
+}
